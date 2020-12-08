@@ -1,45 +1,58 @@
 <!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>Francisco Silva</title>
+		<title>I'm Francisco Silva</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="assets/icon.png"">
+		<link rel="icon" href="images/icon.png"">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Francisco Silva</h1>
-						<p>Computer Engineer &nbsp;&bull;&nbsp;  Studying for a Master's Degree in Cybersecurity at <a href="https://tecnico.ulisboa.pt/pt/"> IST </a> &nbsp;&bull;&nbsp;  Software Developer</p>
-						<nav>
-							<ul>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.png" alt="" /></span>
+							<h1>Francisco Silva</h1>
+							<p>Computer Engineer Cybersecurity Student at <a href="https://tecnico.ulisboa.pt/pt/"> IST </a></p>
+						</header>
+			
+						<footer>
+							<ul class="icons">
 								<li><a href="https://www.linkedin.com/in/franciscomasilva/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								<li><a href="https://github.com/franciscomsilva" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<li><a href="https://www.facebook.com/franciscomasilva800" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="https://www.instagram.com/franciscomasilva/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 								<li><a href="mailto:fmsilva@protonmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
-						</nav>
-					</header>
+						</footer>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright">&copy; Francisco Silva. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+						<ul class="copyright">
+							<li>&copy; Francisco Silva</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
 					</footer>
 
 			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
 	</body>
 </html>
