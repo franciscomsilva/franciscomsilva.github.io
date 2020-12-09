@@ -753,7 +753,7 @@
 				width: 3.75em;
 				height: 3.75em;
 				border-radius: 100%;
-				border: solid 1px #535558;
+				border: solid 1px rgb(65, 68, 69);
 				line-height: 3.75em;
 				overflow: hidden;
 				text-align: center;
@@ -776,7 +776,6 @@
 
 				ul.icons li a:before {
 					color: #ffffff;
-					text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 				}
 
 				ul.icons li a:hover:before {
@@ -914,7 +913,7 @@
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 4.5em 3em 3em 3em ;
-		background: #383636;
+		background: 	rgb(42, 45, 46);
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
@@ -935,7 +934,7 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #383636;
+				box-shadow: 0 0 0 1.5em rgb(42, 45, 46);
 			}
 
 			#main .avatar:before {
@@ -947,7 +946,7 @@
 				width: calc(100% + 6em);
 				height: 1px;
 				z-index: -1;
-				background: #535558;
+				background: rgb(65, 68, 69);
 			}
 
 		@media screen and (max-width: 480px) {
