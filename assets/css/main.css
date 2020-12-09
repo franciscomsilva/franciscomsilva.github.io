@@ -112,10 +112,7 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(83, 24, 14, 0.5) 5%, rgba(58, 167, 180, 0.35)), url("../../images/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
@@ -753,7 +750,7 @@
 				width: 3.75em;
 				height: 3.75em;
 				border-radius: 100%;
-				border: solid 1px rgb(65, 68, 69);
+				border: solid 1px rgb(115, 110, 103);
 				line-height: 3.75em;
 				overflow: hidden;
 				text-align: center;
@@ -913,7 +910,7 @@
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 4.5em 3em 3em 3em ;
-		background: 	rgb(42, 45, 46);
+		background: 	rgb(34, 36, 36);
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
@@ -934,7 +931,7 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em rgb(42, 45, 46);
+				box-shadow: 0 0 0 1.5em rgb(34, 36, 36);
 			}
 
 			#main .avatar:before {
@@ -946,7 +943,7 @@
 				width: calc(100% + 6em);
 				height: 1px;
 				z-index: -1;
-				background: rgb(65, 68, 69);
+				background: rgb(52, 55, 56);
 			}
 
 		@media screen and (max-width: 480px) {
